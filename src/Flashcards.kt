@@ -57,39 +57,6 @@ fun play() {
         }
         println()
     }
-    /*
-    println("Input the number of cards:")
-    val cardNums = readLine()!!.toInt()
-
-    for (i in 1 .. cardNums) {
-        println("Card #$i")
-        var term = readLine()!!
-        while (term in cards.keys) {
-            println("The term \"$term\" already exists. Try again:")
-            term = readLine()!!
-        }
-
-        println("The definition for card #$i")
-        var definition = readLine()!!
-        while (definition in cards.values) {
-            println("The definition \"$definition\" already exists. Try again:")
-            definition = readLine()!!
-        }
-        cards[term] = definition
-    }
-
-    for (card in cards) {
-        println("Print the definition of \"${card.key}\":")
-        when (val answer = readLine()!!) {
-            card.value -> println("Correct!")
-            in cards.values -> println("Wrong. The right answer is \"${card.value}\", " +
-                    "but your definition is correct for " +
-                    "\"${cards.filter { it.value == answer }.keys.joinToString()}\"."
-            )
-            else -> println("Wrong. The right answer is \"${card.value}\".")
-        }
-    }
-    */
 }
 
 fun add() {
