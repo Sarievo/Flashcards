@@ -1,2 +1,2 @@
 # Flashcards-src
-Terminal Shell Flashcards\n
+Terminal Shell Flashcards
