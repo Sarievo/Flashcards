@@ -1,2 +1,2 @@
 # Flashcards-src
-Terminal Shell Flashcards, with file R/W functions
+A Terminal Shell Flashcards CLI app with file R/W functions
